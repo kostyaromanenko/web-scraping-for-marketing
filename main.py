@@ -8,7 +8,7 @@ import googlemaps
 import os
 
 
-API_KEY = 'AIzaSyDCaPq3ltSWKug8OUd9cOeGWd_6lUxCBf0'
+API_KEY = '' # Insert Your Key
 gmaps = googlemaps.Client(key=API_KEY)
 
 def search_company_website(company_name):
